@@ -95,7 +95,7 @@ async function main(){
     res.send("Item Removido com Sucesso");
   })
 
-  app.listen(3000);
+  app.listen(process.env.PORT || 3000);
 
 }
 
